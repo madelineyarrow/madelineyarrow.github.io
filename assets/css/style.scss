@@ -1,0 +1,5 @@
+$header-bg: #0b1736;                 // page header background
+$section-headings-color: #30d4a0;    // h2/h3 etc.
+$link-color: #30d4a0;                // links
+
+@import "{{ site.theme }}";
