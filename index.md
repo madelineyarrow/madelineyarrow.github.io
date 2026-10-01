@@ -1,4 +1,4 @@
-A place for fragments, questions, and occasional glimpses into the writing of *[She Dressed for No One](/books/she-dressed-for-no-one/)*.
+A place for fragments, questions, and occasional glimpses into the writing of _[She Dressed for No One](/books/she-dressed-for-no-one/)_.
 
 ---
 
