@@ -1,37 +1,38 @@
 ---
 ---
-@import "{{ site.theme }}";
-
-// 1. Hard-inject the Google Font file at the CSS level
+// 1. Force load the web font at the absolute first line
 @import url('https://googleapis.com');
 
-// 2. Change the Main Body Background to your soft pink
+// 2. Erase Cayman's hidden font family settings completely
+$font-family: 'Playball', cursive !default;
+$heading-font-family: 'Playball', cursive !default;
+
+// 3. Load the theme AFTER unsetting its fonts
+@import "{{ site.theme }}";
+
+// 4. Set your custom background and layout colors
 body {
   background-color: #fff2f4 !important;
 }
 
-// 3. Force the font and clear default styles on the Title elements
 h1.project-name, 
 .project-name, 
 header .project-name {
   font-family: 'Playball', cursive !important;
   font-size: 4.5rem !important;
   font-weight: 400 !important;
-  text-transform: none !important; // Stops the theme from forcing ALL CAPS
+  text-transform: none !important; 
 }
 
-// 4. Balanced Sorbet Pink-to-Yellow Gradient
 .page-header {
   background-image: linear-gradient(120deg, #ff8da1, #ffb3c1, #ffe494) !important;
   background-color: #ffb3c1 !important;
 }
 
-// 5. Deep Charcoal Header Text
 .project-name, .project-tagline {
   color: #2c3e50 !important;
 }
 
-// 6. Matched Charcoal Buttons
 .btn {
   color: #2c3e50 !important;
   background-color: rgba(44, 62, 80, 0.05) !important;
@@ -44,7 +45,6 @@ header .project-name {
   }
 }
 
-// 7. Soft Rose for Body Links
 a {
   color: #e05a74 !important; 
   
@@ -54,7 +54,6 @@ a {
   }
 }
 
-// 8. Deep Rose for Content Headings
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
   color: #e05a74 !important; 
 }
