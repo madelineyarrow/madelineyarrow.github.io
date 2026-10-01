@@ -2,53 +2,59 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. Change the Main Body Background to a soft, washed-out pink
+// 1. Hard-inject the Google Font file at the CSS level
+@import url('https://googleapis.com');
+
+// 2. Change the Main Body Background to your soft pink
 body {
-  background-color: #fff2f4;
+  background-color: #fff2f4 !important;
 }
 
-// 2. Apply the Script Font to the main title (Project Name)
-.project-name {
+// 3. Force the font and clear default styles on the Title elements
+h1.project-name, 
+.project-name, 
+header .project-name {
   font-family: 'Playball', cursive !important;
-  font-size: 4.5rem !important; // Slightly larger so the script font pops
-  font-weight: normal !important;
+  font-size: 4.5rem !important;
+  font-weight: 400 !important;
+  text-transform: none !important; // Stops the theme from forcing ALL CAPS
 }
 
-// 3. Balanced Sorbet Pink-to-Yellow Gradient
+// 4. Balanced Sorbet Pink-to-Yellow Gradient
 .page-header {
-  background-image: linear-gradient(120deg, #ff8da1, #ffb3c1, #ffe494);
-  background-color: #ffb3c1;
+  background-image: linear-gradient(120deg, #ff8da1, #ffb3c1, #ffe494) !important;
+  background-color: #ffb3c1 !important;
 }
 
-// 4. Deep Charcoal Header Text
+// 5. Deep Charcoal Header Text
 .project-name, .project-tagline {
   color: #2c3e50 !important;
 }
 
-// 5. Matched Charcoal Buttons
+// 6. Matched Charcoal Buttons
 .btn {
-  color: #2c3e50;
-  background-color: rgba(44, 62, 80, 0.05);
-  border-color: rgba(44, 62, 80, 0.2);
+  color: #2c3e50 !important;
+  background-color: rgba(44, 62, 80, 0.05) !important;
+  border-color: rgba(44, 62, 80, 0.2) !important;
 
   &:hover {
-    color: #2c3e50;
-    background-color: rgba(44, 62, 80, 0.12);
-    border-color: rgba(44, 62, 80, 0.35);
+    color: #2c3e50 !important;
+    background-color: rgba(44, 62, 80, 0.12) !important;
+    border-color: rgba(44, 62, 80, 0.35) !important;
   }
 }
 
-// 6. Soft Rose for Body Links
+// 7. Soft Rose for Body Links
 a {
-  color: #e05a74; 
+  color: #e05a74 !important; 
   
   &:hover {
-    text-decoration: underline;
-    color: #ff8da1;
+    text-decoration: underline !important;
+    color: #ff8da1 !important;
   }
 }
 
-// 7. Deep Rose for Content Headings
+// 8. Deep Rose for Content Headings
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
-  color: #e05a74; 
+  color: #e05a74 !important; 
 }
