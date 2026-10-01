@@ -2,41 +2,41 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. Change the Main Header to a Soft Pastel Pink/Yellow Gradient
+// 1. Change the Main Header to a Dark Muted Pink/Yellow Gradient
 .page-header {
-  background-image: linear-gradient(120deg, #ffccd5, #fff0f5, #fefae0);
-  background-color: #fff0f5;
+  background-image: linear-gradient(120deg, #6d3b47, #5c4452, #5c5344);
+  background-color: #5c4452;
 }
 
-// 2. Change Header Text to Dark Charcoal for readability against light pastels
+// 2. Change Header Text to a Soft Off-White for readability
 .project-name, .project-tagline {
-  color: #2b2d42 !important;
+  color: #f4edd2 !important;
 }
 
-// 3. Style Header Buttons to match the dark text theme
+// 3. Style Header Buttons to stand out against the darker background
 .btn {
-  color: #2b2d42;
-  background-color: rgba(0, 0, 0, 0.04);
-  border-color: rgba(0, 0, 0, 0.15);
+  color: #f4edd2;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.2);
 
   &:hover {
-    color: #2b2d42;
-    background-color: rgba(0, 0, 0, 0.08);
-    border-color: rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.35);
   }
 }
 
-// 4. Change Body Link colors to a soft, deep rose pink
+// 4. Change Body Link colors to a dusty rose pink
 a {
-  color: #d90429; 
+  color: #b56576; 
   
   &:hover {
     text-decoration: underline;
-    color: #ffccd5;
+    color: #e56b6f;
   }
 }
 
-// 5. Change Main Content Headings to match the deep rose accent
+// 5. Change Main Content Headings to match the dark muted theme
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
-  color: #2b2d42; 
+  color: #6d3b47; 
 }
