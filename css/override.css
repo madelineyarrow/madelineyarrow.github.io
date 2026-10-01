@@ -43,3 +43,11 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+/* Keep the site title looking like a title even though it's clickable */
+.project-name a,
+.project-name a:hover,
+.project-name a:focus {
+  color: inherit;
+  text-decoration: none;
+}
