@@ -59,6 +59,18 @@ a {
   }
 }
 
+// Keep the clickable site title styled like a title
+.project-name a {
+  color: #2c3e50 !important;
+  text-decoration: none !important;
+
+  &:hover,
+  &:focus {
+    color: #2c3e50 !important;
+    text-decoration: none !important;
+  }
+}
+
 // 8. Deep Rose for Content Headings
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
   color: #e05a74 !important; 
