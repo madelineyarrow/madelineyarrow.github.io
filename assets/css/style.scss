@@ -40,6 +40,20 @@ hr {
   margin-bottom: 20px;
 }
 
+.site-footer {
+  border-top: 0 !important;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.site-footer::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg, #ff8da1, #ffb3c1, #ffe494);
+  margin-bottom: 2rem;
+}
+
 // 5. Deep Charcoal Header Text
 .project-name, .project-tagline {
   color: #2c3e50 !important;
