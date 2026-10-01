@@ -2,35 +2,41 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. Change the Main Header to a Pink/Purple Gradient
+// 1. Change the Main Header to a Soft Pastel Pink/Yellow Gradient
 .page-header {
-  background-image: linear-gradient(120deg, #8a2387, #e94057, #f27121);
+  background-image: linear-gradient(120deg, #ffccd5, #fff0f5, #fefae0);
+  background-color: #fff0f5;
 }
 
-// 2. Adjust Header Buttons to stand out against the new background
+// 2. Change Header Text to Dark Charcoal for readability against light pastels
+.project-name, .project-tagline {
+  color: #2b2d42 !important;
+}
+
+// 3. Style Header Buttons to match the dark text theme
 .btn {
-  color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: #2b2d42;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.15);
 
   &:hover {
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
+    color: #2b2d42;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.25);
   }
 }
 
-// 3. Change Body Link colors to a vibrant Purple/Pink
+// 4. Change Body Link colors to a soft, deep rose pink
 a {
-  color: #e94057; 
+  color: #d90429; 
   
   &:hover {
     text-decoration: underline;
-    color: #8a2387;
+    color: #ffccd5;
   }
 }
 
-// 4. Change Main Content Headings to Purple
+// 5. Change Main Content Headings to match the deep rose accent
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
-  color: #8a2387; 
+  color: #2b2d42; 
 }
