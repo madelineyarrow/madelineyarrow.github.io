@@ -52,7 +52,7 @@ A story cannot preserve the original moment or let us truly step back into it. B
 
 It can, perhaps, convey the mark left on the person who lived it.
 
-_She Dressed for No One_ began with exactly this problem: how to make a fleeting, emotional moment felt by someone who wasn't there, without flattening it by overexplaining it.
+_[She Dressed for No One](/books/she-dressed-for-no-one/)_ began with exactly this problem: how to make a fleeting, emotional moment felt by someone who wasn't there, without flattening it by overexplaining it.
 
 Much of the writing has been an exercise in restraint. In deciding what must be shown, what can be left unsaid, and how much of a frame has to be built before a small thing can carry the weight it needs.
 
@@ -62,5 +62,5 @@ Not to hold onto a moment itself.
 
 Only the feeling left behind.
 
-In progress,  
+_In progress,_  
 Madeline
