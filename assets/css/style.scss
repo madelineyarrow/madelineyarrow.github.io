@@ -2,7 +2,7 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. Declare the font using your local repository path
+// 1. Local title font
 @font-face {
   font-family: 'Playball Local';
   src: url('{{ "/assets/fonts/Playball-Regular.ttf" | relative_url }}') format('truetype');
@@ -10,28 +10,29 @@
   font-style: normal;
 }
 
-// 2. Change the Main Body Background to your soft pink
+// 2. Soft pink page background
 html,
 body {
   background-color: #fff2f4 !important;
 }
 
-// 3. Bind the local font asset tightly to the title class
-h1.project-name, 
-.project-name, 
+// 3. Site title typography
+h1.project-name,
+.project-name,
 header .project-name {
-  font-family: 'Playball Local', sans-serif !important; /* Fallback shifted to sans-serif so you see it change */
+  font-family: 'Playball Local', sans-serif !important;
   font-size: 4.5rem !important;
   font-weight: 400 !important;
-  text-transform: none !important; 
+  text-transform: none !important;
 }
 
-// 4. Balanced Sorbet Pink-to-Yellow Gradient
+// 4. Sorbet pink-to-yellow header gradient
 .page-header {
   background-image: linear-gradient(120deg, #ff8da1, #ffb3c1, #ffe494) !important;
   background-color: #ffb3c1 !important;
 }
 
+// 5. Thin gradient dividers
 hr {
   border: 0;
   height: 1px;
@@ -54,12 +55,13 @@ hr {
   margin-bottom: 2rem;
 }
 
-// 5. Deep Charcoal Header Text
-.project-name, .project-tagline {
+// 6. Deep charcoal header text
+.project-name,
+.project-tagline {
   color: #2c3e50 !important;
 }
 
-// 6. Matched Charcoal Buttons
+// 7. Matched charcoal buttons
 .btn {
   color: #2c3e50 !important;
   background-color: rgba(44, 62, 80, 0.05) !important;
@@ -72,17 +74,17 @@ hr {
   }
 }
 
-// 7. Soft Rose for Body Links
+// 8. Soft rose body links
 a {
-  color: #e05a74 !important; 
-  
+  color: #e05a74 !important;
+
   &:hover {
     text-decoration: underline !important;
     color: #ff8da1 !important;
   }
 }
 
-// Keep the clickable site title styled like a title
+// 9. Keep the clickable site title styled like a title
 .project-name a {
   color: #2c3e50 !important;
   text-decoration: none !important;
@@ -94,7 +96,10 @@ a {
   }
 }
 
-// 8. Deep Rose for Content Headings
-.main-content h1, .main-content h2, .main-content h3, .main-content h4 {
-  color: #e05a74 !important; 
+// 10. Deep rose content headings
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: #e05a74 !important;
 }
