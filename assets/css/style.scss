@@ -2,33 +2,41 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. Change the Main Body Background to your soft pink
+// 1. Declare the font using your local repository path
+@font-face {
+  font-family: 'Playball Local';
+  src: url('{{ "/assets/fonts/Playball-Regular.ttf" | relative_url }}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 2. Change the Main Body Background to your soft pink
 body {
   background-color: #fff2f4 !important;
 }
 
-// 2. Force the font and clear default typography styles on the Title elements
+// 3. Bind the local font asset tightly to the title class
 h1.project-name, 
 .project-name, 
 header .project-name {
-  font-family: 'Playball', cursive !important;
+  font-family: 'Playball Local', sans-serif !important; /* Fallback shifted to sans-serif so you see it change */
   font-size: 4.5rem !important;
   font-weight: 400 !important;
-  text-transform: none !important; // Stops the theme from forcing ALL CAPS
+  text-transform: none !important; 
 }
 
-// 3. Balanced Sorbet Pink-to-Yellow Gradient
+// 4. Balanced Sorbet Pink-to-Yellow Gradient
 .page-header {
   background-image: linear-gradient(120deg, #ff8da1, #ffb3c1, #ffe494) !important;
   background-color: #ffb3c1 !important;
 }
 
-// 4. Deep Charcoal Header Text
+// 5. Deep Charcoal Header Text
 .project-name, .project-tagline {
   color: #2c3e50 !important;
 }
 
-// 5. Matched Charcoal Buttons
+// 6. Matched Charcoal Buttons
 .btn {
   color: #2c3e50 !important;
   background-color: rgba(44, 62, 80, 0.05) !important;
@@ -41,7 +49,7 @@ header .project-name {
   }
 }
 
-// 6. Soft Rose for Body Links
+// 7. Soft Rose for Body Links
 a {
   color: #e05a74 !important; 
   
@@ -51,7 +59,7 @@ a {
   }
 }
 
-// 7. Deep Rose for Content Headings
+// 8. Deep Rose for Content Headings
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
   color: #e05a74 !important; 
 }
