@@ -1,0 +1,36 @@
+---
+---
+@import "{{ site.theme }}";
+
+// 1. Change the Main Header to a Pink/Purple Gradient
+.page-header {
+  background-image: linear-gradient(120deg, #8a2387, #e94057, #f27121);
+}
+
+// 2. Adjust Header Buttons to stand out against the new background
+.btn {
+  color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+
+  &:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+// 3. Change Body Link colors to a vibrant Purple/Pink
+a {
+  color: #e94057; 
+  
+  &:hover {
+    text-decoration: underline;
+    color: #8a2387;
+  }
+}
+
+// 4. Change Main Content Headings to Purple
+.main-content h1, .main-content h2, .main-content h3, .main-content h4 {
+  color: #8a2387; 
+}
