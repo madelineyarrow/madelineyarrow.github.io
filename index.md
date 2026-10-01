@@ -1,5 +1,19 @@
-Here you can say lots of fun things about your site.
+A place for fragments, questions, and occasional glimpses into the writing of *She Dressed for No One*.
 
-Maybe say a some things about yourself.
+---
 
-Or maybe what you plan to blog about.
+{% for post in site.posts %}
+
+### [{{ post.title }}]({{ post.url | relative_url }})
+
+*{{ post.date | date: "%B %-d, %Y" }}*
+
+{{ post.excerpt }}
+
+[Continue reading →]({{ post.url | relative_url }})
+
+{% unless forloop.last %}
+<br>
+{% endunless %}
+
+{% endfor %}
