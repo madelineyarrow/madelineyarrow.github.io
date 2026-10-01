@@ -1,24 +1,34 @@
 ---
 ---
+// 1. Import the Google Script Font
+@import url('https://googleapis.com');
+
 @import "{{ site.theme }}";
 
-// 1. Change the Main Body Background to a soft, washed-out pink
+// 2. Change the Main Body Background to a soft, washed-out pink
 body {
   background-color: #fff2f4;
 }
 
-// 2. Balanced Sorbet Pink-to-Yellow Gradient (Soft but rich)
+// 3. Apply the Script Font to the main title (Project Name)
+.project-name {
+  font-family: 'Playball', cursive !important;
+  font-size: 4.5rem !important; // Slightly larger so the script font pops
+  font-weight: normal !important;
+}
+
+// 4. Balanced Sorbet Pink-to-Yellow Gradient
 .page-header {
   background-image: linear-gradient(120deg, #ff8da1, #ffb3c1, #ffe494);
   background-color: #ffb3c1;
 }
 
-// 3. Deep Charcoal Header Text for crisp readability against sorbet tones
+// 5. Deep Charcoal Header Text
 .project-name, .project-tagline {
   color: #2c3e50 !important;
 }
 
-// 4. Matched Charcoal Buttons
+// 6. Matched Charcoal Buttons
 .btn {
   color: #2c3e50;
   background-color: rgba(44, 62, 80, 0.05);
@@ -31,7 +41,7 @@ body {
   }
 }
 
-// 5. Soft Rose for Body Links
+// 7. Soft Rose for Body Links
 a {
   color: #e05a74; 
   
@@ -41,7 +51,7 @@ a {
   }
 }
 
-// 6. Deep Rose for Content Headings
+// 8. Deep Rose for Content Headings
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
   color: #e05a74; 
 }
