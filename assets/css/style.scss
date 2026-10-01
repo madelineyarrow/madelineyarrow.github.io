@@ -2,41 +2,41 @@
 ---
 @import "{{ site.theme }}";
 
-// 1. Change the Main Header to a Dark Muted Pink/Yellow Gradient
+// 1. Vibrant, rich Pink-to-Yellow Gradient (No muddy tones)
 .page-header {
-  background-image: linear-gradient(120deg, #6d3b47, #5c4452, #5c5344);
-  background-color: #5c4452;
+  background-image: linear-gradient(120deg, #ff4a75, #ff85a2, #ffcb42);
+  background-color: #ff85a2;
 }
 
-// 2. Change Header Text to a Soft Off-White for readability
+// 2. Crisp White Header Text to contrast beautifully with the rich background
 .project-name, .project-tagline {
-  color: #f4edd2 !important;
+  color: #ffffff !important;
 }
 
-// 3. Style Header Buttons to stand out against the darker background
+// 3. Clean White Header Buttons
 .btn {
-  color: #f4edd2;
-  background-color: rgba(255, 255, 255, 0.07);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
 
   &:hover {
     color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.15);
-    border-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.45);
   }
 }
 
-// 4. Change Body Link colors to a dusty rose pink
+// 4. Vibrant Pink for Body Links
 a {
-  color: #b56576; 
+  color: #ff4a75; 
   
   &:hover {
     text-decoration: underline;
-    color: #e56b6f;
+    color: #ff85a2;
   }
 }
 
-// 5. Change Main Content Headings to match the dark muted theme
+// 5. Deep, sharp Pink for Headings
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
-  color: #6d3b47; 
+  color: #ff4a75; 
 }
