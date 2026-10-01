@@ -34,9 +34,11 @@ header .project-name {
 
 // 5. Thin gradient dividers
 hr {
-  border: 0;
-  height: 1px;
-  background: linear-gradient(90deg, #ff8da1, #ffb3c1, #ffe494) !important;
+  height: 0 !important;
+  border: 0 !important;
+  border-top: 1px solid transparent !important;
+  border-image: linear-gradient(90deg, #ff8da1, #ffb3c1, #ffe494) 1 !important;
+  background: none !important;
   margin-top: 30px;
   margin-bottom: 20px;
 }
