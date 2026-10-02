@@ -20,4 +20,6 @@ A place for fragments, questions, and occasional glimpses into the writing of _[
 
 ---
 
-[Earlier notes →](/archive/)
+<br>
+<br>
+[Earlier notes →](/archive.html)
