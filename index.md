@@ -18,8 +18,8 @@ A place for fragments, questions, and occasional glimpses into the writing of _[
 
 {% endfor %}
 
+<br>
 ---
 
-<br>
 <br>
 [Earlier notes →](/archive.html)
