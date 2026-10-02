@@ -1,7 +1,24 @@
 ---
 layout: default
 title: She Dressed for No One
+description: A story of intimacy, distance, uncertainty, and the fleeting moments that leave everything changed.
 ---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "She Dressed for No One",
+  "author": {
+    "@type": "Person",
+    "name": "Madeline Yarrow",
+    "url": "https://madelineyarrow.com/"
+  },
+  "description": "A story of intimacy, distance, uncertainty, and the fleeting moments that leave everything changed.",
+  "url": "https://madelineyarrow.com/books/she-dressed-for-no-one/",
+  "inLanguage": "en-US"
+}
+</script>
 
 # She Dressed for No One
 
