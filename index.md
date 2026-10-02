@@ -2,7 +2,7 @@ A place for fragments, questions, and occasional glimpses into the writing of _[
 
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts limit:6 %}
 
 ### [{{ post.title }}]({{ post.url | relative_url }})
 
@@ -17,3 +17,7 @@ A place for fragments, questions, and occasional glimpses into the writing of _[
 {% endunless %}
 
 {% endfor %}
+
+---
+
+[Earlier notes →](/archive/)
