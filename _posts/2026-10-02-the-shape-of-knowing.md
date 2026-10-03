@@ -6,7 +6,7 @@ Not to know things about them. Not the facts we gather and keep without even mea
 
 I mean something beyond that.
 
-Like recognizing their [six different smiles](/links/six-different-smiles/), and understanding what each one means.
+Like recognizing their <a href="/links/six-different-smiles/" data-goatcounter-click="six-different-smiles">six different smiles</a>, and understanding what each one means.
 
 Maybe that is knowing too.
 
