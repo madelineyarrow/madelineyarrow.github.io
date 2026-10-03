@@ -40,7 +40,7 @@ To remain inside it for a few more seconds.
 
 Often the thing that affects us most is almost impossible to explain afterward.
 
-"The market was closing" sounds trivial. "[A bag moved in the wind](/links/a-bag-moved-in-the-wind/)" sounds ridiculous.
+"The market was closing" sounds trivial. "<a href="/links/a-bag-moved-in-the-wind/" data-goat-counter-click="a-bag-moved-in-the-wind">A bag moved in the wind</a>" sounds ridiculous.
 
 The detail alone does not carry the experience.
 
