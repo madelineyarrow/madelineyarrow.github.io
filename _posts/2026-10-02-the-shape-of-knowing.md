@@ -6,7 +6,7 @@ Not to know things about them. Not the facts we gather and keep without even mea
 
 I mean something beyond that.
 
-Like recognizing their [six different smiles](https://www.youtube.com/watch?v=YXzryi4HrVs), and understanding what each one means.
+Like recognizing their [six different smiles](/links/six-different-smiles/), and understanding what each one means.
 
 Maybe that is knowing too.
 
