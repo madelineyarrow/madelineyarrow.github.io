@@ -1,9 +1,3 @@
-<!--
-Copyright © 2026 Madeline Yarrow.
-All rights reserved.
-Contains excerpts from She Dressed for No One.
--->
-
 ## My Good Friend, the Coffee Mug
 
 My good friend, the coffee mug.
