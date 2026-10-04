@@ -66,3 +66,9 @@ It's telling us who he is.
 
 _In progress,_  
 Madeline
+
+<!--
+Copyright © 2026 Madeline Yarrow.
+All rights reserved.
+Contains excerpts from She Dressed for No One.
+-->
