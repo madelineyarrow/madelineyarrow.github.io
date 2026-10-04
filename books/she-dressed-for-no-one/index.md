@@ -14,7 +14,8 @@ _She Dressed for No One_ is a story of intimacy, distance, uncertainty, and the 
 
 ### From the notebook
 
-[Before It Disappears](/2026/10/01/before-it-disappears.html)
+- [Before It Disappears](/2026/10/01/before-it-disappears.html)
+- [My Good Friend, the Coffee Mug](/2026/10/04/my-good-friend-the-coffee-mug.html)
 
 _In progress,_  
 Madeline
