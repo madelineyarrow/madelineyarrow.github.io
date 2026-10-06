@@ -12,6 +12,10 @@ What if the deepest connection of your life existed on the other side of a scree
 
 _She Dressed for No One_ is a story of intimacy, distance, uncertainty, and the fleeting moments that leave everything changed.
 
+### Manuscript
+
+- [Chapter One](/2026/10/06/manuscript-chapter-one.html)
+
 ### From the notebook
 
 - [Before It Disappears](/2026/10/01/before-it-disappears.html)
