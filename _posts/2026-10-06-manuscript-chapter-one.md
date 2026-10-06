@@ -64,7 +64,7 @@ There is something slightly unnerving about letting the beginning out into the w
 
 Perhaps that is the point.
 
-_In progress,_
+_In progress,_  
 Madeline
 
 <!--
